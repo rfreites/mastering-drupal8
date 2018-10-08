@@ -1,0 +1,2 @@
+#!/bin/bash
+cat your_dump.sql | docker exec -i mastering-drupal8-postgres psql -U postgres
